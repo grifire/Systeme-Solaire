@@ -129,6 +129,7 @@ public class App extends SimpleApplication {
         //camNode.setLocalTranslation(terre.getPivot().getLocalTranslation().add(new Vector3f(0,0,2)));
         //camNode.lookAt(terre.getPivot().getLocalTranslation(), Vector3f.UNIT_Y);
         //camNode.setControlDir(CameraControl.ControlDirection.SpatialToCamera);
+        //test
 
         terre.setCameraNode(new CameraNode("cam"+terre.getNom(), cam));
         terre.getCamNode().attachChild(terre.getCameraNode());
